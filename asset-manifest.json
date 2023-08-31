@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/okvip-app/static/css/main.5dd44ba9.css",
-    "main.js": "/okvip-app/static/js/main.357c2fba.js",
+    "main.css": "/okvip-app/static/css/main.e5dd0cb8.css",
+    "main.js": "/okvip-app/static/js/main.a57d5f95.js",
+    "static/media/bg-container.png": "/okvip-app/static/media/bg-container.eef175814388c51d8ad0.png",
     "index.html": "/okvip-app/index.html",
-    "main.5dd44ba9.css.map": "/okvip-app/static/css/main.5dd44ba9.css.map",
-    "main.357c2fba.js.map": "/okvip-app/static/js/main.357c2fba.js.map"
+    "main.e5dd0cb8.css.map": "/okvip-app/static/css/main.e5dd0cb8.css.map",
+    "main.a57d5f95.js.map": "/okvip-app/static/js/main.a57d5f95.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dd44ba9.css",
-    "static/js/main.357c2fba.js"
+    "static/css/main.e5dd0cb8.css",
+    "static/js/main.a57d5f95.js"
   ]
 }
