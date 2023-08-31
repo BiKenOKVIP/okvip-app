@@ -6,3 +6,30 @@
 html {
   font-family: "Roboto", sans-serif;
 }
+.ant-menu-item {
+  padding: 30px 0;
+}
+
+.ant-menu-item a {
+  color: #fff;
+}
+
+.ant-menu-item:hover {
+  background-color: #fff;
+}
+/* Tùy chỉnh kiểu dáng của dấu mũi tên */
+.custom-carousel .slick-prev {
+  width: 25px;
+  height: 25px;
+  background: url("../public/images/left-arrow.png") no-repeat center;
+  background-size: cover;
+  z-index: 1;
+}
+
+.custom-carousel .slick-next {
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+  z-index: 1;
+  background: url("../public/images/right-arrow.png") no-repeat center;
+}

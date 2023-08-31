@@ -14,7 +14,7 @@ function Header() {
   let isInline = true;
   return (
     <>
-      <div className="fixed bg-[#000] w-full h-[50px] flex justify-between items-center">
+      <div className="fixed top-0 left-0 z-50 bg-[#000] w-full h-[50px] flex justify-between items-center">
         <Button
           className="outline-none border-0 text-[#FF9900] text-[20px] h-full flex items-center"
           onClick={showDrawer}
@@ -37,17 +37,20 @@ function Header() {
           placement="left"
         >
           <Menu
-            className="bg-[#000] text-[#FF9900]"
+            className="bg-[#000] text-[#FF9900] pt-10"
             mode={isInline ? "inline" : "horizontal"}
             items={[
-              { key: "news", label: <a href="/">Tin tức</a> },
+              {
+                key: "news",
+                label: <a href="/">Tin tức</a>,
+              },
               { key: "about", label: <a href="/">Về chúng tôi</a> },
               { key: "contact", label: <a href="/">Liên hệ</a> },
             ]}
           />
         </Drawer>
         <div className="text-center h-full flex items-center">
-          <img className="h-[70%]" src="./images/logo.png" alt="Logo" />
+          <img className="h-[70%]" src="/images/logo.png" alt="Logo" />
         </div>
         <div className="w-[50px]"></div>
       </div>

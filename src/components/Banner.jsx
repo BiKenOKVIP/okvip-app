@@ -1,10 +1,10 @@
 function Banner() {
   return (
-    <>
-      <div className="mt-[50px] relative">
-        <img src="./images/banner.png" alt="Banner" />
+    <div>
+      <div className="mt-[50px] relative flex">
+        <img src="/images/banner.png" alt="Banner" />
         <div className="text-center absolute top-10 px-10">
-          <h2 className="text-[#fff] uppercase font-[700] mb-[10px]">
+          <h2 className="text-[#fff] uppercase font-[900] mb-[10px]">
             Liên minh okvip
           </h2>
           <p className="text-[#fff] leading-[15px] text-[0.8rem]">
@@ -14,7 +14,7 @@ function Banner() {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
