@@ -50,7 +50,7 @@ function Header() {
           />
         </Drawer>
         <div className="text-center h-full flex items-center">
-          <img className="h-[70%]" src="/images/logo.png" alt="Logo" />
+          <img className="h-[70%]" src="./images/logo.png" alt="Logo" />
         </div>
         <div className="w-[50px]"></div>
       </div>

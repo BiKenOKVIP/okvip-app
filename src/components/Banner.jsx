@@ -2,7 +2,7 @@ function Banner() {
   return (
     <div>
       <div className="mt-[50px] relative flex">
-        <img src="/images/banner.png" alt="Banner" />
+        <img src="./images/banner.png" alt="Banner" />
         <div className="text-center absolute top-10 px-10">
           <h2 className="text-[#fff] uppercase font-[900] mb-[10px]">
             Liên minh okvip
